@@ -15,4 +15,4 @@ spec:
   endpoints:
   - port: http-metrics # <--- Обов'язково використовуємо іменований порт із Service (todoapp-service)
     path: /metrics # <--- Шлях до метрик у твоєму Django додатку
-    interval: 10 # Частота скрапінгу метрик
+    interval: 10s # Частота скрапінгу метрик
